@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+.gridCol3-center {
+  display: grid !important;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.gridCol2 {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-92 {
+  width: 92%;
+}
+
+.cell-h50 {
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+}
+
+.formDatalist {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+
+.btnSblue5 {
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  background-color: #033D6F;
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.articulosForm {
+  width: 100vw;
+  height: auto;
+  background-color: #F1F4F5;
+}
+.articulosForm header {
+  width: 100vw;
+  font-family: "Oxygen", sans-serif;
+  background-color: #F1F4F5;
+  position: fixed;
+  top: 0;
+}
+.articulosForm header div.d-flex {
+  margin: 14px 0px 10px 0px;
+}
+.articulosForm header i {
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+.articulosForm header h1 {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #001840;
+}
+.articulosForm main {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.articulosForm main div.d-flex {
+  margin-bottom: 14px;
+}
+.articulosForm main div.imgContainer-ARTC {
+  width: 170px;
+  height: 159px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+.articulosForm main div.imgContainer-ARTC button {
+  background-color: #033D6F;
+  font-size: 1em;
+  color: #FFFFFF;
+  border: none;
+  width: 100%;
+  height: 32px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.articulosForm main label {
+  color: #001840;
+}
+.articulosForm main input {
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+}
+.articulosForm main hr {
+  height: 2px;
+  background-color: #B0C7D2;
+  color: #B0C7D2;
+}
+.articulosForm footer {
+  width: 100vw;
+  background-color: #F1F4F5;
+  position: fixed;
+  bottom: 0;
+}
+.articulosForm button.btnSblue5 {
+  margin-top: 22px;
+}/*# sourceMappingURL=main.css.map */
