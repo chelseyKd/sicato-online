@@ -1,0 +1,38 @@
+body{
+    header{
+        width: 100vw;
+        font-family: $contrastFont;
+        background-color: $siadBlue-gray5;
+        padding-top: 2px;
+        div.d-flex{
+            margin: 14px 0px 10px 0px;
+        }
+        i{
+           font-size: $headerTx;
+           margin-left: 20px; 
+        }
+        h1{
+            font-size: $titleTx;
+            font-weight: $boldTx;
+            color: $siadBlue8;
+        }
+    }
+    button.btnSolid-btm{
+        font-family: $contrastFont;
+        font-size: $mdTx;
+        font-weight: $boldTx;
+        color: $theWhite;
+    }
+    button.btnBorder-body{
+        font-family: $gralFont;
+        font-size: $normiTx;
+        font-weight: $boldTx;
+        i{
+            font-size: $normiTx;
+            margin-left: 10px; 
+        }
+    }
+    footer{
+        width: 100vw;
+    }
+}

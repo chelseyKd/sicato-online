@@ -37,8 +37,27 @@
         border-radius: 8px;
         height: 50px;
         background-color: $siadBlue5;
-        font-family: $contrastFont;
-        font-size: $mdTx;
-        font-weight: $boldTx;
-        color: $theWhite;
+    }
+
+    //border
+    .btnB-blue5{
+        border: solid 2px $siadBlue5;
+        border-radius: 6px;
+        background-color: $theWhite;
+        color: $siadBlue5;
+    }
+//MARGIN
+    //bottom
+    .mb6{
+        margin-bottom: 6px;
+    }
+    //top
+    .mt12{
+        margin-top: 12px;
+    }
+
+//PADDING
+    //bottom
+    .pb12{
+        padding-bottom: 12px;
     }

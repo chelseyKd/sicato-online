@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+
+#hamburger-input{
+  display: none;
+}
+
+#hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    display: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cabin', Sans-serif;
+    background: linear-gradient(
+      to bottom, 
+      #000000, #000000 20%, 
+      white 20%, white 40%, 
+      #000000 40%, #000000 60%, 
+      white 60%, white 80%, 
+      #000000 80%, #000000 100%
+    );
+}
+
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: #033D6F;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+#hamburger-menu ul {
+  padding-left: 0px;
+  margin-top: 16px;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-menu a {
+  color: #FFFFFF;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-menu i{
+  color: #FFFFFF;
+  font-size: 1.125em;
+  text-decoration: none;
+  margin-right: 18px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+#hamburger-menu hr{
+  height: 2px;
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  width: 165px;
+  margin-left: 8px;
+}
+
+#hamburger-menu h3{
+  color: #FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.iconBtn button{
+  margin-right: 4px;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+   visibility: visible;
+  opacity: 0.4;
+}
+
+
+@media screen and (max-width: 750px) {
+  #main-menu {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
+}
+
+/*botones*/
+.btnB-blancBlue5{
+  border: solid 2px #FFFFFF;
+  border-radius: 8px;
+  background-color: #033D6F;
+  color: #FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 0.875rem;
+}

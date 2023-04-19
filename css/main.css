@@ -35,10 +35,96 @@
   border-radius: 8px;
   height: 50px;
   background-color: #033D6F;
+}
+
+.btnB-blue5 {
+  border: solid 2px #033D6F;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  color: #033D6F;
+}
+
+.mb6 {
+  margin-bottom: 6px;
+}
+
+.mt12 {
+  margin-top: 12px;
+}
+
+.pb12 {
+  padding-bottom: 12px;
+}
+
+body header {
+  width: 100vw;
+  font-family: "Oxygen", sans-serif;
+  background-color: #F1F4F5;
+  padding-top: 2px;
+}
+body header div.d-flex {
+  margin: 14px 0px 10px 0px;
+}
+body header i {
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+body header h1 {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #001840;
+}
+body button.btnSolid-btm {
   font-family: "Oxygen", sans-serif;
   font-size: 1.125em;
   font-weight: 700;
   color: #FFFFFF;
+}
+body button.btnBorder-body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+body button.btnBorder-body i {
+  font-size: 1em;
+  margin-left: 10px;
+}
+body footer {
+  width: 100vw;
+}
+
+.articulos header {
+  background-color: #F1F4F5;
+}
+.articulos header div.btnHeader-ARTC {
+  background-color: #FFFFFF;
+  margin: 0px;
+}
+.articulos header div.btnHeader-ARTC button {
+  padding: 6px 12px;
+}
+.articulos footer {
+  border: solid 2px #B0C7D2;
+  border-bottom: none;
+  border-radius: 6px;
+  background-color: #F1F4F5;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Oxygen", sans-serif;
+}
+.articulos footer i {
+  font-size: 1.25em;
+}
+.articulos footer i.me-1 {
+  margin-left: 6px;
+}
+.articulos footer label {
+  font-size: 1em;
+  font-weight: 400;
+}
+.articulos footer h3 {
+  font-size: 1.125em;
+  font-weight: 700;
 }
 
 .articulosForm {

@@ -1,3 +1,41 @@
+//ARTICULOS
+.articulos{
+    header{
+        background-color: $siadBlue-gray5;
+        div.btnHeader-ARTC{
+            background-color: $theWhite;
+            margin: 0px;
+            button{
+                padding: 6px 12px;
+            }
+        }
+    }
+    footer{
+        border: solid 2px $siadBlue-gray6;
+        border-bottom: none;
+        border-radius: 6px;
+        background-color: $siadBlue-gray5;
+        display: flex;
+        justify-content: space-between;
+        font-family: $contrastFont;
+        i{
+            font-size: $titleTx;
+        }
+        i.me-1{
+            margin-left: 6px;
+        }
+        label{
+            font-size: $normiTx;
+            font-weight: $regularTx;
+        }
+        h3{
+            font-size: $mdTx;
+            font-weight: $boldTx;
+        }   
+    } 
+}
+
+    //form-ARTICULOS
 .articulosForm{
     width: 100vw;
     height: auto;
