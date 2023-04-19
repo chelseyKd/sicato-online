@@ -35,6 +35,10 @@
   border-radius: 8px;
   height: 50px;
   background-color: #033D6F;
+  font-family: "Oxygen", sans-serif;
+  color: #FFFFFF;
+  font-size: 1.125em;
+  font-weight: 700;
 }
 
 .btnB-blue5 {
@@ -91,6 +95,26 @@ body button.btnBorder-body i {
 }
 body footer {
   width: 100vw;
+}
+
+.gralFilters {
+  font-family: "Oxygen", sans-serif;
+}
+.gralFilters label {
+  font-size: 1em;
+  font-weight: 700;
+  color: #494949;
+}
+.gralFilters input.gralSearch {
+  border: none;
+  border-radius: 6px;
+  background-color: #E5E5E5;
+  height: 45px;
+}
+.gralFilters select {
+  border: solid 1px #E5E5E5;
+  border-radius: 6px;
+  height: 45px;
 }
 
 .articulos header {

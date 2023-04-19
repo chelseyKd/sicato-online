@@ -36,3 +36,24 @@ body{
         width: 100vw;
     }
 }
+
+//FILTROS
+.gralFilters{
+    font-family: $contrastFont;
+    label{
+        font-size: $normiTx;
+        font-weight: $boldTx;
+        color: $stronGris49;
+    }
+    input.gralSearch{
+        border: none;
+        border-radius: 6px;
+        background-color: $mdGrisE5;
+        height: 45px;
+    }
+    select{
+        border: solid 1px $mdGrisE5;
+        border-radius: 6px;
+        height: 45px;
+    }
+}
