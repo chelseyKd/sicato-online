@@ -108,3 +108,19 @@
         margin-top: 22px;
     }
 }
+
+//VENTAS
+.ventas{
+    header{
+        background-color: $red-gray5;
+        h1{
+            color: $red8;
+        }
+    }
+    footer{
+        border-top: solid 2px $red-gray6;
+        div{
+            margin: 8px 8px 0px 8px;
+        }
+    }
+}

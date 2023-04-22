@@ -13,6 +13,10 @@
   width: 85%;
 }
 
+.w-90 {
+  width: 90%;
+}
+
 .w-92 {
   width: 92%;
 }
@@ -41,11 +45,34 @@
   font-weight: 700;
 }
 
+.btnS-red5 {
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  background-color: #8C2416;
+}
+
+.btnS-deleteBtm {
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+  background-color: #FFEBD7;
+  color: #DB402A;
+}
+
 .btnB-blue5 {
   border: solid 2px #033D6F;
   border-radius: 6px;
   background-color: #FFFFFF;
   color: #033D6F;
+}
+
+.btnB-red5 {
+  border: solid 2px #8C2416;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  color: #8C2416;
 }
 
 .mb6 {
@@ -60,40 +87,44 @@
   padding-bottom: 12px;
 }
 
-body header {
+header {
   width: 100vw;
+  height: 58px;
   font-family: "Oxygen", sans-serif;
   background-color: #F1F4F5;
   padding-top: 2px;
 }
-body header div.d-flex {
+header div.d-flex {
   margin: 14px 0px 10px 0px;
 }
-body header i {
+header i {
   font-size: 1.5em;
   margin-left: 20px;
 }
-body header h1 {
+header h1 {
   font-size: 1.25em;
   font-weight: 700;
   color: #001840;
 }
-body button.btnSolid-btm {
+
+button.btnSolid-btm {
   font-family: "Oxygen", sans-serif;
   font-size: 1.125em;
   font-weight: 700;
   color: #FFFFFF;
 }
-body button.btnBorder-body {
+
+button.btnBorder-body {
   font-family: "Quicksand", sans-serif;
   font-size: 1em;
   font-weight: 700;
 }
-body button.btnBorder-body i {
+button.btnBorder-body i {
   font-size: 1em;
   margin-left: 10px;
 }
-body footer {
+
+footer {
   width: 100vw;
 }
 
@@ -222,4 +253,17 @@ body footer {
 }
 .articulosForm button.btnSblue5 {
   margin-top: 22px;
+}
+
+.ventas header {
+  background-color: #F2EEEA;
+}
+.ventas header h1 {
+  color: #51070F;
+}
+.ventas footer {
+  border-top: solid 2px #D0BBAB;
+}
+.ventas footer div {
+  margin: 8px 8px 0px 8px;
 }/*# sourceMappingURL=main.css.map */

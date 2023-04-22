@@ -1,6 +1,6 @@
-body{
     header{
         width: 100vw;
+        height: 58px;
         font-family: $contrastFont;
         background-color: $siadBlue-gray5;
         padding-top: 2px;
@@ -35,7 +35,6 @@ body{
     footer{
         width: 100vw;
     }
-}
 
 //FILTROS
 .gralFilters{
