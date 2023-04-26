@@ -81,8 +81,8 @@
 .btnS-editTable {
   border: none;
   border-radius: 8px;
-  height: 30px;
-  width: 30px;
+  height: 38px;
+  width: 38px;
   background-color: #B4E578;
   color: #5EAA23;
 }
@@ -315,12 +315,14 @@ footer {
 
 .ventaCarrito div.subHeader {
   border-bottom: solid 2px #D0BBAB;
+  height: 50px;
 }
 .ventaCarrito div.subHeader h2 {
   font-family: "Oxygen", sans-serif;
   font-size: 1.125em;
   font-weight: 700;
   color: #494949;
+  margin-bottom: 0px;
 }
 .ventaCarrito div.subHeader i {
   font-size: 1.5em;
@@ -350,6 +352,7 @@ footer {
   padding-right: 4px;
 }
 .ventaCarrito table button {
+  text-align: center;
   margin: 6px 0px 6px 2px;
 }
 .ventaCarrito button.btnS-red5 {

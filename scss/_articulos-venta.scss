@@ -128,11 +128,13 @@
 .ventaCarrito{
     div.subHeader{
         border-bottom: solid 2px $red-gray6;
+        height: 50px;
         h2{
             font-family: $contrastFont;
             font-size: $mdTx;
             font-weight: $boldTx;
             color: $stronGris49;
+            margin-bottom: 0px;
         }
         i{
             font-size: $headerTx;
@@ -162,6 +164,7 @@
             padding-right: 4px;
         }
         button{
+            text-align: center;
             margin: 6px 0px 6px 2px;
         }
     }
