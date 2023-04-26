@@ -9,18 +9,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.w-85 {
-  width: 85%;
-}
-
-.w-90 {
-  width: 90%;
-}
-
-.w-92 {
-  width: 92%;
-}
-
 .cell-h50 {
   border: none;
   border-radius: 8px;
@@ -32,6 +20,16 @@
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
+}
+
+.btnSolid-btm {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
 }
 
 .btnSblue5 {
@@ -52,13 +50,9 @@
   background-color: #8C2416;
 }
 
-.btnS-deleteBtm {
-  border: none;
-  border-radius: 8px;
-  height: 50px;
-  width: 50px;
-  background-color: #FFEBD7;
-  color: #DB402A;
+.btnS-red2 {
+  background-color: #F3BEA1;
+  color: #8C2416;
 }
 
 .btnB-blue5 {
@@ -75,6 +69,40 @@
   color: #8C2416;
 }
 
+.btnS-deleteBtm {
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+  background-color: #FFEBD7;
+  color: #DB402A;
+}
+
+.btnS-editTable {
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  width: 30px;
+  background-color: #B4E578;
+  color: #5EAA23;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-92 {
+  width: 92%;
+}
+
 .mb6 {
   margin-bottom: 6px;
 }
@@ -83,8 +111,20 @@
   margin-top: 12px;
 }
 
+.ms1 {
+  margin-left: 1px;
+}
+
+.ms18 {
+  margin-left: 18px;
+}
+
 .pb12 {
   padding-bottom: 12px;
+}
+
+.ps18 {
+  padding-left: 18px;
 }
 
 header {
@@ -104,22 +144,14 @@ header i {
 header h1 {
   font-size: 1.25em;
   font-weight: 700;
-  color: #001840;
 }
 
-button.btnSolid-btm {
-  font-family: "Oxygen", sans-serif;
-  font-size: 1.125em;
-  font-weight: 700;
-  color: #FFFFFF;
-}
-
-button.btnBorder-body {
+.btnBorder-body {
   font-family: "Quicksand", sans-serif;
   font-size: 1em;
   font-weight: 700;
 }
-button.btnBorder-body i {
+.btnBorder-body i {
   font-size: 1em;
   margin-left: 10px;
 }
@@ -146,6 +178,19 @@ footer {
   border: solid 1px #E5E5E5;
   border-radius: 6px;
   height: 45px;
+}
+
+.temaRojo header {
+  background-color: #F2EEEA;
+}
+.temaRojo header h1 {
+  color: #51070F;
+}
+.temaRojo footer {
+  border-top: solid 2px #D0BBAB;
+}
+.temaRojo footer div {
+  margin: 8px 8px 0px 8px;
 }
 
 .articulos header {
@@ -266,4 +311,63 @@ footer {
 }
 .ventas footer div {
   margin: 8px 8px 0px 8px;
+}
+
+.ventaCarrito div.subHeader {
+  border-bottom: solid 2px #D0BBAB;
+}
+.ventaCarrito div.subHeader h2 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #494949;
+}
+.ventaCarrito div.subHeader i {
+  font-size: 1.5em;
+  color: #494949;
+}
+.ventaCarrito table {
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+.ventaCarrito table tr {
+  border-bottom: solid 1px #D9D9D9;
+}
+.ventaCarrito table td.txTable-CAR {
+  color: #969696;
+}
+.ventaCarrito table td.numTable-CAR {
+  color: #494949;
+  text-align: center;
+}
+.ventaCarrito table td.numtotTable-CAR {
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #494949;
+  text-align: end;
+  padding-right: 4px;
+}
+.ventaCarrito table button {
+  margin: 6px 0px 6px 2px;
+}
+.ventaCarrito button.btnS-red5 {
+  height: auto;
+  padding: 0px;
+}
+.ventaCarrito button.btnS-red5 i.iconPagos-CAR {
+  font-size: 1.5em;
+}
+.ventaCarrito button.btnS-red5 h3 {
+  font-size: 0.75em;
+}
+.ventaCarrito button.btnS-red5 i.fa-chevron-right {
+  margin-bottom: 6px;
+}
+.ventaCarrito button.padding-btmCAR {
+  padding: 0px 12px;
+}
+.ventaCarrito div.subFooter {
+  margin: 10px 0px 16px 2px;
 }/*# sourceMappingURL=main.css.map */

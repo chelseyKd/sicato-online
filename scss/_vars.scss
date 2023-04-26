@@ -3,6 +3,7 @@
     $gralFont:'Quicksand', sans-serif;
     $contrastFont:'Oxygen', sans-serif;
     //size
+    $xtrasmTx:0.75em;//12px
     $normiTx:1em;//16px
     $mdTx:1.125em;//18px
     $titleTx:1.25em;//20px
@@ -13,12 +14,16 @@
     $boldTx:700;
 
 //COLORS
-    //BASICS-GENERALES
+    //BASICS
     $theWhite:#FFFFFF;
     $theBlack:#000000;
+    //GENERALES
     //rojo-delete
     $rojoDelete-bg:#FFEBD7;//100
-    $rojoDelete-in:#DB402A;//600
+    $rojoDelete-ct:#DB402A;//600
+    //verde-edit
+    $verdeEdit-bg:#B4E578;//300
+    $verdeEdit-ct:#5EAA23;//500
 
     //azul
     $siadBlue-gray5:#F1F4F5;//500
@@ -28,9 +33,13 @@
     //rojo
     $red-gray5:#F2EEEA;//500
     $red-gray6:#D0BBAB;//600
+    $red2:#F3BEA1;//200
     $red5:#8C2416;//500
     $red8:#51070F;//800
 
     //gris
     $mdGrisE5:#E5E5E5;//borders-bg
+    $mdGrisD9:#D9D9D9;//border-table
+    $mdGris96:#969696;//tx
     $stronGris49:#494949;//tx
+    

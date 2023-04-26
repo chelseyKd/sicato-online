@@ -109,7 +109,7 @@
     }
 }
 
-//VENTAS
+//VENTA
 .ventas{
     header{
         background-color: $red-gray5;
@@ -122,5 +122,66 @@
         div{
             margin: 8px 8px 0px 8px;
         }
+    }
+}
+    //carrrito-VENTA
+.ventaCarrito{
+    div.subHeader{
+        border-bottom: solid 2px $red-gray6;
+        h2{
+            font-family: $contrastFont;
+            font-size: $mdTx;
+            font-weight: $boldTx;
+            color: $stronGris49;
+        }
+        i{
+            font-size: $headerTx;
+            color: $stronGris49;
+        }
+    }
+    table{
+        width: 100%;
+        font-family: $gralFont;
+        font-weight: $mediumTx;
+        font-size: $normiTx;
+        tr{
+            border-bottom: solid 1px $mdGrisD9;
+        }
+        td.txTable-CAR{
+            color: $mdGris96;
+        }
+        td.numTable-CAR{
+            color: $stronGris49;
+            text-align: center;
+        }
+        td.numtotTable-CAR{
+            font-size: $mdTx;
+            font-weight: $boldTx;
+            color: $stronGris49;
+            text-align: end;
+            padding-right: 4px;
+        }
+        button{
+            margin: 6px 0px 6px 2px;
+        }
+    }
+    button.btnS-red5{
+        height: auto;
+        padding: 0px;
+        i.iconPagos-CAR{
+            font-size: $headerTx;
+        }
+        h3{
+            font-size: $xtrasmTx;
+        }
+        i.fa-chevron-right{
+            margin-bottom: 6px;
+        }
+    }
+    button.padding-btmCAR{
+        padding: 0px 12px;
+    }
+    div.subFooter{
+        margin: 10px 0px 16px 2px;
     }
 }

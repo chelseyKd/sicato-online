@@ -8,17 +8,6 @@
     grid-template-columns: 1fr 1fr;
 }
 
-//WIDTH
-.w-85{
-    width: 85%;
-}
-.w-90{
-    width: 90%;
-}
-.w-92{
-    width: 92%;
-}
-
 //CELL FORM
 .cell-h50{
     border: none;
@@ -35,6 +24,15 @@
 
 //BUTTONS
     //SOLID
+    .btnSolid-btm{
+        font-family: $contrastFont;
+        font-size: $mdTx;
+        font-weight: $boldTx;
+        color: $theWhite;
+        border: none;
+        border-radius: 8px;
+        height: 50px;
+    }
     //azul
     .btnSblue5{
         border: none;
@@ -53,17 +51,10 @@
         height: 50px;
         background-color: $red5;
     }
-    //GENERALES
-    //delete
-    .btnS-deleteBtm{
-        border: none;
-        border-radius: 8px;
-        height: 50px;
-        width: 50px;
-        background-color: $rojoDelete-bg;
-        color: $rojoDelete-in; 
+    .btnS-red2{
+        background-color: $red2;
+        color: $red5;
     }
-
     //BORDER
     //azul
     .btnB-blue5{
@@ -79,6 +70,41 @@
         background-color: $theWhite;
         color: $red5;
     }
+
+    //GENERALES
+    //delete-rojo
+    .btnS-deleteBtm{
+        border: none;
+        border-radius: 8px;
+        height: 50px;
+        width: 50px;
+        background-color: $rojoDelete-bg;
+        color: $rojoDelete-ct; 
+    }
+    //edit-verde
+    .btnS-editTable{
+        border: none;
+        border-radius: 8px;
+        height: 30px;
+        width: 30px;
+        background-color: $verdeEdit-bg;
+        color: $verdeEdit-ct;
+    }
+
+//WIDTH
+.w-80{
+    width: 80%;
+}
+.w-85{
+    width: 85%;
+}
+.w-90{
+    width: 90%;
+}
+.w-92{
+    width: 92%;
+}
+
 //MARGIN
     //bottom
     .mb6{
@@ -88,9 +114,20 @@
     .mt12{
         margin-top: 12px;
     }
-
+    //start
+    .ms1{
+        margin-left: 1px;
+    }
+    .ms18{
+        margin-left: 18px;
+    }
+    
 //PADDING
     //bottom
     .pb12{
         padding-bottom: 12px;
+    }
+    //start
+    .ps18{
+        padding-left: 18px;
     }
