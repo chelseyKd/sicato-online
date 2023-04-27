@@ -188,3 +188,14 @@
         margin: 10px 0px 16px 2px;
     }
 }
+
+.ventaEditar{
+    td{
+        padding: 12px 6px;
+    }
+    h3.deleteTx{
+       font-size: $xtrasmTx;
+       font-weight: $boldTx;
+       color: $rojoDelete-ct;
+    }
+}

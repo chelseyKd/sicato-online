@@ -31,7 +31,7 @@
         color: $theWhite;
         border: none;
         border-radius: 8px;
-        height: 50px;
+        height: 50px!important;
     }
     //azul
     .btnSblue5{
@@ -46,9 +46,6 @@
     }
     //rojo
     .btnS-red5{
-        border: none;
-        border-radius: 8px;
-        height: 50px;
         background-color: $red5;
     }
     .btnS-red2{

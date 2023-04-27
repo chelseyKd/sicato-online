@@ -7,7 +7,7 @@
         div.d-flex{
             margin: 14px 0px 10px 0px;
         }
-        i{
+        i.iconHeader{
            font-size: $headerTx;
            margin-left: 20px; 
         }
@@ -63,5 +63,29 @@
         div{
             margin: 8px 8px 0px 8px;
         }
+    }
+}
+
+//EDITAR-CANTIDAD
+.editCant{
+    h3{
+       font-size: $xtrasmTx;
+       font-weight: $boldTx;
+       color: $verdeEdit-ct;
+       text-align: center;
+    }
+    button{
+        border: none;
+        border-radius: 8px;
+        height: 50px;
+        width: 50px;
+        background-color: $verdeEdit-bg;
+        color: $verdeEdit-ct;
+    }
+    input{
+        border: solid 2px $verdeEdit-ct;
+        border-radius: 4px;
+        height: 50px;
+        width: 100px;
     }
 }

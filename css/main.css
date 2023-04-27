@@ -29,7 +29,7 @@
   color: #FFFFFF;
   border: none;
   border-radius: 8px;
-  height: 50px;
+  height: 50px !important;
 }
 
 .btnSblue5 {
@@ -44,9 +44,6 @@
 }
 
 .btnS-red5 {
-  border: none;
-  border-radius: 8px;
-  height: 50px;
   background-color: #8C2416;
 }
 
@@ -137,7 +134,7 @@ header {
 header div.d-flex {
   margin: 14px 0px 10px 0px;
 }
-header i {
+header i.iconHeader {
   font-size: 1.5em;
   margin-left: 20px;
 }
@@ -191,6 +188,27 @@ footer {
 }
 .temaRojo footer div {
   margin: 8px 8px 0px 8px;
+}
+
+.editCant h3 {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #5EAA23;
+  text-align: center;
+}
+.editCant button {
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+  background-color: #B4E578;
+  color: #5EAA23;
+}
+.editCant input {
+  border: solid 2px #5EAA23;
+  border-radius: 4px;
+  height: 50px;
+  width: 100px;
 }
 
 .articulos header {
@@ -373,4 +391,13 @@ footer {
 }
 .ventaCarrito div.subFooter {
   margin: 10px 0px 16px 2px;
+}
+
+.ventaEditar td {
+  padding: 12px 6px;
+}
+.ventaEditar h3.deleteTx {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #DB402A;
 }/*# sourceMappingURL=main.css.map */
