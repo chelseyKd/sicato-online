@@ -168,7 +168,7 @@
             margin: 6px 0px 6px 2px;
         }
     }
-    button.btnS-red5{
+    button.btnSlg-red5{
         height: auto;
         padding: 0px;
         i.iconPagos-CAR{
@@ -197,5 +197,54 @@
        font-size: $xtrasmTx;
        font-weight: $boldTx;
        color: $rojoDelete-ct;
+    }
+}
+
+.ventaPago-efectivo{
+    div.subHeader{
+        border-bottom: solid 2px $red-gray6;
+        height: 50px;
+        h2{
+            font-family: $contrastFont;
+            font-size: $mdTx;
+            font-weight: $boldTx;
+            color: $stronGris49;
+            margin-bottom: 0px;
+        }
+        i{
+            font-size: $headerTx;
+            color: $stronGris49;
+        }
+    }
+    div.container-redGray5{
+        background-color: $red-gray5;
+        border-radius: 8px;
+        width: 95%;
+        color: $red8;
+        font-family: $gralFont;
+        font-size: $mdTx;
+        font-weight: $mediumTx;
+        div.containerCell-blanco{
+            background-color: $theWhite;
+            border-radius: 6px;
+            height: 50px;
+            width: 80%;
+        }
+        input{
+            background-color: $theWhite;
+            border: solid 2px $red5;
+            border-radius: 6px;
+            height: 50px;
+            width: 75%;
+        }
+        i{
+            font-size: $headerTx-lg;
+        }
+        span.boldTx{
+            font-weight: $boldTx;
+        }       
+    }
+    div.borderCont-red5{
+        border: solid 2px $red5;
     }
 }

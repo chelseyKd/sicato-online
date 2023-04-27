@@ -52,6 +52,15 @@
   color: #8C2416;
 }
 
+.btnSlg-red5 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  background-color: #8C2416;
+}
+
 .btnB-blue5 {
   border: solid 2px #033D6F;
   border-radius: 6px;
@@ -104,8 +113,16 @@
   margin-bottom: 6px;
 }
 
+.mb18 {
+  margin-bottom: 18px;
+}
+
 .mt12 {
   margin-top: 12px;
+}
+
+.m-Y28 {
+  margin: 28px 0px;
 }
 
 .ms1 {
@@ -122,6 +139,14 @@
 
 .ps18 {
   padding-left: 18px;
+}
+
+.p-Y22 {
+  padding: 22px 0px;
+}
+
+.p-Y10 {
+  padding: 10px 0px;
 }
 
 header {
@@ -373,17 +398,17 @@ footer {
   text-align: center;
   margin: 6px 0px 6px 2px;
 }
-.ventaCarrito button.btnS-red5 {
+.ventaCarrito button.btnSlg-red5 {
   height: auto;
   padding: 0px;
 }
-.ventaCarrito button.btnS-red5 i.iconPagos-CAR {
+.ventaCarrito button.btnSlg-red5 i.iconPagos-CAR {
   font-size: 1.5em;
 }
-.ventaCarrito button.btnS-red5 h3 {
+.ventaCarrito button.btnSlg-red5 h3 {
   font-size: 0.75em;
 }
-.ventaCarrito button.btnS-red5 i.fa-chevron-right {
+.ventaCarrito button.btnSlg-red5 i.fa-chevron-right {
   margin-bottom: 6px;
 }
 .ventaCarrito button.padding-btmCAR {
@@ -400,4 +425,51 @@ footer {
   font-size: 0.75em;
   font-weight: 700;
   color: #DB402A;
+}
+
+.ventaPago-efectivo div.subHeader {
+  border-bottom: solid 2px #D0BBAB;
+  height: 50px;
+}
+.ventaPago-efectivo div.subHeader h2 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #494949;
+  margin-bottom: 0px;
+}
+.ventaPago-efectivo div.subHeader i {
+  font-size: 1.5em;
+  color: #494949;
+}
+.ventaPago-efectivo div.container-redGray5 {
+  background-color: #F2EEEA;
+  border-radius: 8px;
+  width: 95%;
+  color: #51070F;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+.ventaPago-efectivo div.container-redGray5 div.containerCell-blanco {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  height: 50px;
+  width: 80%;
+}
+.ventaPago-efectivo div.container-redGray5 input {
+  background-color: #FFFFFF;
+  border: solid 2px #8C2416;
+  border-radius: 6px;
+  height: 50px;
+  width: 75%;
+}
+.ventaPago-efectivo div.container-redGray5 i {
+  font-size: 2.25em;
+}
+.ventaPago-efectivo div.container-redGray5 span.boldTx {
+  font-weight: 700;
+}
+.ventaPago-efectivo div.borderCont-red5 {
+  border: solid 2px #8C2416;
 }/*# sourceMappingURL=main.css.map */
