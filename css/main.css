@@ -117,6 +117,14 @@
   margin-bottom: 18px;
 }
 
+.mb26 {
+  margin-bottom: 26px;
+}
+
+.mb32 {
+  margin-bottom: 32px;
+}
+
 .mt12 {
   margin-top: 12px;
 }
@@ -207,6 +215,21 @@ footer {
 }
 .temaRojo header h1 {
   color: #51070F;
+}
+.temaRojo div.subHeader {
+  border-bottom: solid 2px #D0BBAB;
+  height: 50px;
+}
+.temaRojo div.subHeader h2 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #494949;
+  margin-bottom: 0px;
+}
+.temaRojo div.subHeader i {
+  font-size: 1.5em;
+  color: #494949;
 }
 .temaRojo footer {
   border-top: solid 2px #D0BBAB;
@@ -472,4 +495,36 @@ footer {
 }
 .ventaPago-efectivo div.borderCont-red5 {
   border: solid 2px #8C2416;
+}
+
+.ventaPago-tarjYtransf div.container-redGray5, .ventaPago-tarjYtransf div.containerCell-border {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.125em;
+  color: #51070F;
+}
+.ventaPago-tarjYtransf div.container-redGray5 {
+  background-color: #F2EEEA;
+  border: solid 2px #8C2416;
+  border-radius: 8px;
+  width: 95%;
+  font-size: 1.125em;
+}
+.ventaPago-tarjYtransf div.container-redGray5 i {
+  font-size: 2.25em;
+}
+.ventaPago-tarjYtransf div.containerCell-border {
+  border: solid 2px #D0BBAB;
+  border-radius: 6px;
+  width: 95%;
+  height: 50px;
+  font-weight: 700;
+}
+.ventaPago-tarjYtransf textarea {
+  border: solid 2px #D9D9D9;
+  border-radius: 6px;
+  color: #494949;
+  width: 95%;
+  height: 100px;
+  font-size: 1em;
+  color: #494949;
 }/*# sourceMappingURL=main.css.map */

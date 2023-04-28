@@ -58,6 +58,21 @@
             color: $red8;
         }
     }
+    div.subHeader{
+        border-bottom: solid 2px $red-gray6;
+        height: 50px;
+        h2{
+            font-family: $contrastFont;
+            font-size: $mdTx;
+            font-weight: $boldTx;
+            color: $stronGris49;
+            margin-bottom: 0px;
+        }
+        i{
+            font-size: $headerTx;
+            color: $stronGris49;
+        }
+    }
     footer{
         border-top: solid 2px $red-gray6;
         div{

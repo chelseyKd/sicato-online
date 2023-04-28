@@ -248,3 +248,37 @@
         border: solid 2px $red5;
     }
 }
+
+.ventaPago-tarjYtransf{
+    div.container-redGray5,div.containerCell-border{
+        font-family: $gralFont;
+        font-size: $mdTx;
+        color: $red8;
+    }
+    div.container-redGray5{
+        background-color: $red-gray5;
+        border: solid 2px $red5;
+        border-radius: 8px;
+        width: 95%;
+        font-size: $mdTx;
+        i{
+            font-size: $headerTx-lg;
+        }
+    }
+    div.containerCell-border{
+        border: solid 2px $red-gray6;
+        border-radius: 6px;
+        width: 95%;
+        height: 50px;
+        font-weight: $boldTx;
+    }
+    textarea{
+        border: solid 2px $mdGrisD9;
+        border-radius: 6px;
+        color: $stronGris49;
+        width: 95%;
+        height: 100px;
+        font-size: $normiTx;
+        color: $stronGris49;
+    }
+}
