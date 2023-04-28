@@ -247,6 +247,15 @@
     div.borderCont-red5{
         border: solid 2px $red5;
     }
+    textarea{
+        border: solid 2px $mdGrisD9;
+        border-radius: 6px;
+        color: $stronGris49;
+        width: 95%;
+        height: 100px;
+        font-size: $normiTx;
+        color: $stronGris49;
+    }
 }
 
 .ventaPago-tarjYtransf{
