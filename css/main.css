@@ -238,6 +238,45 @@ footer {
   margin: 8px 8px 0px 8px;
 }
 
+.succes-temaRojo {
+  background-color: #F2EEEA;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.succes-temaRojo h1 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #51070F;
+  text-align: center;
+  margin-top: 70px;
+}
+.succes-temaRojo div {
+  background-color: #FFFFFF;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+.succes-temaRojo div i {
+  font-size: 2.25em;
+  color: #51070F;
+}
+.succes-temaRojo p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+  color: #494949;
+  text-align: center;
+  margin-top: 45px;
+}
+
 .editCant h3 {
   font-size: 0.75em;
   font-weight: 700;

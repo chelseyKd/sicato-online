@@ -80,6 +80,44 @@
         }
     }
 }
+.succes-temaRojo{
+    background-color: $red-gray5;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-family: $contrastFont;
+        font-size: $titleTx;
+        font-weight: $boldTx;
+        color: $red8;
+        text-align: center;
+        margin-top: 70px;
+    }
+    div{
+        background-color: $theWhite;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+        i{
+           font-size: $headerTx-lg;
+           color: $red8;
+        } 
+    }
+    p{
+        font-family: $gralFont;
+        font-size: $mdTx;
+        font-weight: $mediumTx;
+        color: $stronGris49;
+        text-align: center;
+        margin-top: 45px;
+    }
+}
 
 //EDITAR-CANTIDAD
 .editCant{
