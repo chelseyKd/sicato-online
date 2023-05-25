@@ -186,6 +186,35 @@
     }
     div.subFooter{
         margin: 10px 0px 16px 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        div.clienteSelect{
+            font-family: $gralFont;
+            align-items: flex-end;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: center;
+            label{
+                font-size: $normiTx;
+                font-weight: $mediumTx;
+                color: $stronGris49;
+            }
+            input{
+                border: solid 2px $stronGris49;
+                border-radius: 8px;
+                height: 45px;
+            }
+            button{
+                font-weight: $boldTx;
+                height: 45px;
+                padding: 0px 12px 0px 10px;
+                margin-left: 8px;
+                i{
+                    margin-left: 4px;
+                }
+            }
+        }
     }
 }
 
@@ -197,6 +226,30 @@
        font-size: $xtrasmTx;
        font-weight: $boldTx;
        color: $rojoDelete-ct;
+    }
+    button.select{
+        width: auto;
+        height: 35px;
+        font-weight: $boldTx;
+    }
+    footer{
+        padding-left: 12px;
+        label{
+            font-family: $contrastFont;
+            font-size: $mdTx;
+            font-weight: $boldTx;
+            color: $stronGris49;
+            i{
+                color: $red5;
+                margin-right: 6px;
+            }
+        }
+        input{
+            border: solid 2px $stronGris49;
+            border-radius: 8px;
+            height: 50px;
+            width: 95%;
+        }
     }
 }
 

@@ -44,7 +44,13 @@
 }
 
 .btnS-red5 {
+  border: none;
+  border-radius: 8px;
+  height: 50px;
   background-color: #8C2416;
+  color: #FFFFFF;
+  font-size: 1.125em;
+  font-weight: 700;
 }
 
 .btnS-red2 {
@@ -91,6 +97,10 @@
   width: 38px;
   background-color: #B4E578;
   color: #5EAA23;
+}
+
+.w-68 {
+  width: 68%;
 }
 
 .w-80 {
@@ -155,6 +165,11 @@
 
 .p-Y10 {
   padding: 10px 0px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -478,6 +493,35 @@ footer {
 }
 .ventaCarrito div.subFooter {
   margin: 10px 0px 16px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ventaCarrito div.subFooter div.clienteSelect {
+  font-family: "Quicksand", sans-serif;
+  align-items: flex-end;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+.ventaCarrito div.subFooter div.clienteSelect label {
+  font-size: 1em;
+  font-weight: 500;
+  color: #494949;
+}
+.ventaCarrito div.subFooter div.clienteSelect input {
+  border: solid 2px #494949;
+  border-radius: 8px;
+  height: 45px;
+}
+.ventaCarrito div.subFooter div.clienteSelect button {
+  font-weight: 700;
+  height: 45px;
+  padding: 0px 12px 0px 10px;
+  margin-left: 8px;
+}
+.ventaCarrito div.subFooter div.clienteSelect button i {
+  margin-left: 4px;
 }
 
 .ventaEditar td {
@@ -487,6 +531,30 @@ footer {
   font-size: 0.75em;
   font-weight: 700;
   color: #DB402A;
+}
+.ventaEditar button.select {
+  width: auto;
+  height: 35px;
+  font-weight: 700;
+}
+.ventaEditar footer {
+  padding-left: 12px;
+}
+.ventaEditar footer label {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #494949;
+}
+.ventaEditar footer label i {
+  color: #8C2416;
+  margin-right: 6px;
+}
+.ventaEditar footer input {
+  border: solid 2px #494949;
+  border-radius: 8px;
+  height: 50px;
+  width: 95%;
 }
 
 .ventaPago-efectivo div.subHeader {

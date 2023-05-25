@@ -46,7 +46,13 @@
     }
     //rojo
     .btnS-red5{
+        border: none;
+        border-radius: 8px;
+        height: 50px;
         background-color: $red5;
+        color: $theWhite;
+        font-size: $mdTx;
+        font-weight: $boldTx;
     }
     .btnS-red2{
         background-color: $red2;
@@ -98,6 +104,9 @@
     }
 
 //WIDTH
+.w-68{
+    width: 68%;
+}
 .w-80{
     width: 80%;
 }
@@ -156,4 +165,11 @@
     }
     .p-Y10{
         padding: 10px 0px;
+    }
+
+//FLEX
+    //column
+    .column{
+        display: flex;
+        flex-direction: column;
     }
