@@ -344,3 +344,29 @@
         color: $stronGris49;
     }
 }
+
+//TRANSACCIONES
+.transacciones-inicio{
+    main{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: solid $yellw-gray6;
+        h1{
+            font-family: $contrastFont;
+            font-size: $titleTx;
+            font-weight: $boldTx;
+            color: $yellw8;
+            text-align: center;
+            margin-top: 70px;
+        }
+        .buttons{
+            width: 92%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 48px;
+        }
+    }
+}
