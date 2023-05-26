@@ -360,13 +360,36 @@
             font-weight: $boldTx;
             color: $yellw8;
             text-align: center;
-            margin-top: 70px;
+            margin: 78px 0px 68px 0px;
         }
-        .buttons{
+        button{
+            border-radius: 8px;
             width: 92%;
+            height: 138px;
+            font-family: $gralFont;
             display: flex;
             flex-direction: column;
-            margin-top: 48px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 28px;
+            i{
+                font-size: $headerTx;
+                margin-bottom: 8px;
+            }
+            span{
+                font-size: $titleTx;
+                font-weight: $mediumTx;
+            }
+        }
+        .btn-redGray5{
+            border: solid 2px $red8;
+            background-color: $red-gray5;
+            color: $red8;
+        }
+        .btn-blueGray5{
+            border: solid 2px $siadBlue8;
+            background-color: $siadBlue-gray5;
+            color: $siadBlue8;
         }
     }
 }

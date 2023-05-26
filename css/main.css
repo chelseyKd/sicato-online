@@ -681,11 +681,34 @@ footer {
   font-weight: 700;
   color: #6F2600;
   text-align: center;
-  margin-top: 70px;
+  margin: 78px 0px 68px 0px;
 }
-.transacciones-inicio main .buttons {
+.transacciones-inicio main button {
+  border-radius: 8px;
   width: 92%;
+  height: 138px;
+  font-family: "Quicksand", sans-serif;
   display: flex;
   flex-direction: column;
-  margin-top: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.transacciones-inicio main button i {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+.transacciones-inicio main button span {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+.transacciones-inicio main .btn-redGray5 {
+  border: solid 2px #51070F;
+  background-color: #F2EEEA;
+  color: #51070F;
+}
+.transacciones-inicio main .btn-blueGray5 {
+  border: solid 2px #001840;
+  background-color: #F1F4F5;
+  color: #001840;
 }/*# sourceMappingURL=main.css.map */
