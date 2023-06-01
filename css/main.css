@@ -779,10 +779,11 @@ footer {
 }
 .transacciones-lista td.color-redDlte6 {
   color: #DB402A;
+  padding-left: 6px;
 }
 .transacciones-lista td.mainInfo {
   color: #51070F;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 700;
   padding-right: 10px;
 }
