@@ -393,3 +393,106 @@
         }
     }
 }
+
+.transacciones-lista{
+    .filtros-TL{
+        margin: 8px 8px 12px 8px;
+        span.dateContainer{
+            background-color: $yellw-gray5;
+            border-radius: 6px;
+            padding: 6px 14px;
+            font-size: $smTx;
+            font-weight: $regularTx;
+            color: $yellw8;
+        }
+        span.title{
+            color: $yellw8;
+            font-size: $mdTx;
+        }
+        i{
+            color: $yellw5;
+        }
+        .fechaActual,.fechaSeleccionada{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    table{
+        width: 100%;
+        border-bottom: solid 1px $mdGrisE5;
+        margin-bottom: 2px;
+    }
+    td{
+        font-size: $xtrasmTx;
+        font-weight: $regularTx;
+        color: $mdGris96;
+        height: 45px;
+        text-align: center;
+        border-top: solid 1px $mdGrisE5;
+    }
+    td.size-md{
+        font-size: $normiTx;
+    }
+    td.size-lg{
+        font-size: $mdTx;
+        padding-right: 10px;
+    }
+    td.color-strong{
+        color: $stronGris49;
+        font-weight: $boldTx;
+    }
+    td.color-red5{
+        color: $red5;
+        font-size: $mdTx;
+    }
+    td.color-redDlte6{
+        color: $rojoDelete-ct;
+    }
+    td.mainInfo{
+        color: $red8;
+        font-size: $mdTx;
+        font-weight: $boldTx;
+        padding-right: 10px;
+    }
+    td.color-yellw5{
+        color: $yellw5;
+        font-size: $mdTx;
+        width: 25px;
+    }
+    tr.movCancelado{
+        background-color: $mdGrisE5;
+    }
+    footer{
+        border: solid 2px $red-gray6;
+        border-bottom: none;
+        border-radius: 6px;
+        background-color: $red-gray5;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        label,input{
+            color: $red8;
+            font-size: $mdTx;
+            font-weight: $regularTx;
+        }
+        input{
+            background-color: $red-gray5;
+            border: solid 1px $red-gray6;
+            border-radius: 6px;
+            width: 80px;
+            height: 35px;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        i.equal{
+            color: $yellw5;
+            margin-left: 4px;
+        }
+        span{
+            color: $red8;
+            font-size: $titleTx;
+            font-weight: $boldTx;
+            margin-right: 4px;
+        }
+    }
+}

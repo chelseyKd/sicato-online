@@ -82,6 +82,16 @@
         background-color: $theWhite;
         color: $red5;
     }
+    //amarillo
+    .btnB-yellw5{
+        border: solid 2px $yellw5;
+        border-radius: 6px;
+        background-color: $theWhite;
+        color: $yellw5;
+        font-family: $gralFont;
+        font-size: $normiTx;
+        font-weight: $boldTx;
+    }
 
     //GENERALES
     //delete-rojo
@@ -121,6 +131,17 @@
 }
 
 //MARGIN
+    //start
+    .ms1{
+        margin-left: 1px;
+    }
+    .ms18{
+        margin-left: 18px;
+    }
+    //top
+    .mt12{
+        margin-top: 12px;
+    }
     //bottom
     .mb6{
         margin-bottom: 6px;
@@ -134,20 +155,13 @@
     .mb32{
         margin-bottom: 32px;
     }
-    //top
-    .mt12{
-        margin-top: 12px;
-    }
     //eje-Y
     .m-Y28{
         margin: 28px 0px;
     }
-    //start
-    .ms1{
-        margin-left: 1px;
-    }
-    .ms18{
-        margin-left: 18px;
+    //eje-X
+    .m-X8{
+        margin: 0px 8px;
     }
     
 //PADDING
